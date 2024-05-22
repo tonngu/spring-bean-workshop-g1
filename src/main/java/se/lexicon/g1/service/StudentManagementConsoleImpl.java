@@ -36,6 +36,7 @@ public class StudentManagementConsoleImpl implements StudentManagement {
 
         studentDao.save(student);
 
+        System.out.println("Student successfully created and saved to database");
         return student;
     }
 
@@ -79,13 +80,13 @@ public class StudentManagementConsoleImpl implements StudentManagement {
         if (scannerService.getString().equals("Y")) {
             System.out.println("Enter name: ");
             student.setName(scannerService.getString());
+            System.out.println("Student edited.");
+            return student;
+        }
+        else {
+            System.out.println("Student not edited.");
+            return student;
         }
 
-        System.out.println("Edit student id (Y/N)?: ");
-        if (scannerService.getString().equals("Y")) {
-            System.out.println("Enter id: ");
-            student.setId(scannerService.getInt());
-        }
-        return student;
     }
 }
