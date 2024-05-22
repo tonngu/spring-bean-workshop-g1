@@ -16,11 +16,13 @@ public class ScannerInputService implements UserInputService {
 
     @Override
     public String getString() {
+        if (scanner == null) throw new IllegalArgumentException("Input cannot be null");
         return scanner.nextLine();
     }
 
     @Override
     public int getInt() {
+        if (scanner == null) throw new IllegalArgumentException("Input cannot be null");
         return scanner.nextInt();
     }
 

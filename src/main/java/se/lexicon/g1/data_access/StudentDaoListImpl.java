@@ -13,6 +13,7 @@ public class StudentDaoListImpl implements StudentDao {
 
     @Override
     public Student save(Student student) {
+        if (student == null) throw new IllegalArgumentException("Student cannot be null");
         studentList.add(student);
         return student;
     }

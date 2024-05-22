@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="247bbe14-5d00-4b9f-86d0-71e2b8b1bb6d" name="Changes" comment="Successfully configured ScannerInputService dependency to Scanner util package via spring bean">
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/service/StudentManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/service/StudentManagementConsoleImpl.java" afterDir="false" />
+    <list default="true" id="247bbe14-5d00-4b9f-86d0-71e2b8b1bb6d" name="Changes" comment="Fully defined StudentDaoListImpl and ScannerInputService classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/config/ComponentScanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/config/ComponentScanConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/data_access/StudentDaoListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/data_access/StudentDaoListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/service/ScannerInputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/service/ScannerInputService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/service/UserInputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/service/UserInputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/service/StudentManagementConsoleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/g1/service/StudentManagementConsoleImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,12 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716364780667</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fully defined StudentDaoListImpl and ScannerInputService classes">
+      <option name="closed" value="true" />
+      <created>1716367500083</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716367500083</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Successfully configured ScannerInputService dependency to Scanner util package via spring bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="Successfully configured ScannerInputService dependency to Scanner util package via spring bean" />
+    <MESSAGE value="Fully defined StudentDaoListImpl and ScannerInputService classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fully defined StudentDaoListImpl and ScannerInputService classes" />
   </component>
 </project>

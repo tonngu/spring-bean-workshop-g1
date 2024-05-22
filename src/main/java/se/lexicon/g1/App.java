@@ -15,8 +15,8 @@ public class App
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(ComponentScanConfig.class);
         StudentDao studentDao = context.getBean(StudentDao.class);
-
         UserInputService userInputService =context.getBean(UserInputService.class);
+
 
     }
 
