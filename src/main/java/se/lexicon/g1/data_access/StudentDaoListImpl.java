@@ -11,6 +11,10 @@ import java.util.Optional;
 public class StudentDaoListImpl implements StudentDao {
     private List<Student> studentList;
 
+    public StudentDaoListImpl() {
+        studentList = new ArrayList<>();
+    }
+
     @Override
     public Student save(Student student) {
         if (student == null) throw new IllegalArgumentException("Student cannot be null");
